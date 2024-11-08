@@ -24,16 +24,11 @@ export PATH="$HOME/.local/bin:$PATH"
 Changes ko apply karna:
 Ab aapko .bashrc file mein ki gayi changes ko apply karne ke liye bash ko reload karna hoga:
 source ~/.bashrc
-
-
 After installation, verify the version of Poetry:
 poetry --version
-
 2.4. Install PostgresSQL
 PostgreSQL is required for database management.
 sudo apt install postgresql postgresql-contrib -y
-
-
 
 After installation, start and enable PostgreSQL:
 sudo systemctl start postgresql
@@ -42,13 +37,9 @@ sudo systemctl enable postgresql
 You can check the status of PostgreSQL with:
 sudo systemctl status postgresql
 
-
-
-
 2.5. Install Redis
 Redis will be used as the cache management middleware.
 sudo apt install redis-server -y
-
 Start and enable Redis:
 sudo systemctl start redis
 sudo systemctl enable redis
@@ -79,7 +70,7 @@ packages = [
 ]
  ![image](https://github.com/user-attachments/assets/6ed74932-87e6-4c74-b6a9-309d30f4cc26)
 
-poetry install
+ ## poetry install
 ![image](https://github.com/user-attachments/assets/8816c0ce-b72e-4466-a4a3-cfeb0cf227fb)
 Failed because psycopg2 ko install karne ke liye libpq-dev package ki zaroorat hoti hai, jo ki PostgreSQL development headers aur libraries ko provide karta hai. Aap ye command run karein:
 
