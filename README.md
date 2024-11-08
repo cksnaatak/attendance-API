@@ -57,8 +57,8 @@ Use Poetry to install the necessary Python dependencies.
 sudo apt install python3-poetry
 poetry install
 Screenshots
-![image](https://github.com/user-attachments/assets/22ba1624-1cea-45f2-b142-ff77fa30f816)
-Update packages
+ ![image](https://github.com/user-attachments/assets/22ba1624-1cea-45f2-b142-ff77fa30f816)
+ Update packages
 
 
 Vi pyproject.toml
